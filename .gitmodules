@@ -1,0 +1,9 @@
+[submodule "ref_tech2ai"]
+	path = ref_tech2ai
+	url = https://github.com/ed-donner/tech2ai.git
+[submodule "ref_udemy_llm_engineering"]
+	path = ref_udemy_llm_engineering
+	url = https://github.com/ed-donner/llm_engineering.git
+[submodule "ref_udemy_agentic_course"]
+	path = ref_udemy_agentic_course
+	url = https://github.com/ed-donner/agentic.git
