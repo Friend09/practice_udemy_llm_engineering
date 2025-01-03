@@ -28,6 +28,9 @@ def clear_notebooks(source_dir, destination_dir):
         - Preserves markdown cells and notebook structure
         - Creates destination directory if it doesn't exist
         - Adds 'practise_' prefix to output filenames
+
+    Example in Terminal:
+        >>> python dev/create_practise_notebooks.py ../source/week3 ../destination/practise_week3
     """
     # Ensure destination directory exists
     os.makedirs(destination_dir, exist_ok=True)
