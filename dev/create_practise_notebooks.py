@@ -30,6 +30,7 @@ def clear_notebooks(source_dir, destination_dir):
         - Adds 'practise_' prefix to output filenames
 
     Example in Terminal:
+        # python3 script source_folder dest_folder
         >>> python dev/create_practise_notebooks.py ../source/week3 ../destination/practise_week3
     """
     # Ensure destination directory exists
